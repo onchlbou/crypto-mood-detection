@@ -374,7 +374,6 @@ def scrapeCryptoPageFeedStatus(number_of_crypto):
 if __name__ == '__main__':
     #param = nombre de crypto a traiter
     #scrapeCryptoPageFeedStatus(15)
-    #send_email("wilsonlelama@gmail.com", "<Wilsonlelama_Password>", "nathan.hue1@gmail.com", "crypto_news", "hello hello")
     quickScrapeCryptoPageFeedStatus(favorites_crypto)
 
     #creation du fichier xls avec tous les csv
